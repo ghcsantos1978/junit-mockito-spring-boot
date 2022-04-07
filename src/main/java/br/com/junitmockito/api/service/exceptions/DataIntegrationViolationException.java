@@ -13,6 +13,10 @@ public class DataIntegrationViolationException extends RuntimeException {
 	public DataIntegrationViolationException() {
 		super(MESSAGE);
 	}
+
+	public DataIntegrationViolationException(String message) {
+		super(message);
+	}
 	
 	
 
